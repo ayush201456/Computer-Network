@@ -1,1 +1,11 @@
+CSMA/CA is a network protocol used in wireless networks (Wi-Fi) to avoid collisions before they happen.
 
+Steps:-
+
+1. Sense channel
+2. If idle → Wait (IFS time)
+3. Send RTS (Request to Send)
+4. Receive CTS (Clear to Send)
+5. Transmit data
+6. Receive ACK
+7. If no ACK → Retransmit
