@@ -4,7 +4,7 @@ Lab Assignments
 Experiment - 6
 CSMA/CD
 Steps:-
-1. Sense the channel – Device checks if medium is idle
+1. **Sense the channel** – Device checks if medium is idle
 2. If idle -> Transmit data
 3. If busy -> Wait
 4. During transmission -> Detect collision
@@ -15,7 +15,7 @@ Steps:-
 
 CSMA/CA
 Steps:-
-1. Sense channel
+1. **Sense channel**
 2. If idle → Wait (IFS time)
 3. Send RTS (Request to Send)
 4. Receive CTS (Clear to Send)
