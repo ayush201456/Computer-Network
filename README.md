@@ -2,6 +2,7 @@
 Lab Assignments
 
 Experiment - 6 
+
 **Develop a simulation to demonstrate multiple access protocols such as Pure ALOHA, Slotted ALOHA, CSMA/CD, and CSMA/CA. Analyze the performance of each protocol in handling network collisions and maximizing data transmission efficiency.**
 
 CSMA/CD
