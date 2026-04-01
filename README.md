@@ -1,5 +1,7 @@
 # Computer-Network
 Lab Assignments
+
+
 **Experiment - 1**
 
 Design and simulate a simple computer network using various connection topologies (bus, star, ring, mesh). Compare the advantages and disadvantages of each topology in terms of data flow and network efficiency.
@@ -62,7 +64,7 @@ PCs → Switches (Star)
 Switches → Hub (Bus backbone)
 Test → observe combined behavior
 
-Experiment - 6 
+**Experiment - 6** 
 
 **Develop a simulation to demonstrate multiple access protocols such as Pure ALOHA, Slotted ALOHA, CSMA/CD, and CSMA/CA. Analyze the performance of each protocol in handling network collisions and maximizing data transmission efficiency.**
 
