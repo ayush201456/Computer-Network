@@ -64,3 +64,17 @@ Steps:
 3. Switches → Hub (Bus backbone)
 4. Test → observe combined behavior
 
+**Experiment - 6**
+Develop a simulation to demonstrate multiple access protocols such as Pure ALOHA, Slotted ALOHA, CSMA/CD, and CSMA/CA. Analyze the performance of each protocol in handling network collisions and maximizing data transmission efficiency.
+
+CSMA/CA is a network protocol used in wireless networks (Wi-Fi) to avoid collisions before they happen.
+
+Steps:-
+
+1. Sense channel
+2. If idle → Wait (IFS time)
+3. Send RTS (Request to Send)
+4. Receive CTS (Clear to Send)
+5. Transmit data
+6. Receive ACK
+7. If no ACK → Retransmit
