@@ -78,3 +78,15 @@ Steps:-
 5. Transmit data
 6. Receive ACK
 7. If no ACK → Retransmit
+
+CSMA/CD is a network protocol used in wired Ethernet LANs to control how devices share a communication channel.
+
+Steps:-
+1. Sense the channel – Device checks if medium is idle
+2. If idle → Transmit data
+3. If busy → Wait
+4. During transmission → Detect collision
+5. If collision occurs → Send jam signal
+6. Stop transmission
+7. Wait (Backoff time)
+8. Retransmit
