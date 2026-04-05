@@ -1,4 +1,5 @@
-**ARP Steps:-**
+ARP Steps:-
+
 1. Create a network with one switch and multiple PCs.
 2. Connect PCs using straight-through cables.
 3. Assign IP addresses in the same subnet (e.g., 192.168.1.x).
