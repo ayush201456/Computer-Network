@@ -91,3 +91,33 @@ Steps:-
 6. Stop transmission
 7. Wait (Backoff time)
 8. Retransmit
+
+
+
+**Experiment - 7**
+Create a simulation to demonstrate logical addressing using IPv4 and IPv6. Implement address mapping techniques such as ARP and DHCP to show how devices acquire and resolve network addresses.
+
+**ARP**
+
+ARP is used to map an IP address to its corresponding MAC address in a local network.
+
+STEPS:-
+
+
+
+**DHCP**
+
+DHCP is used to automatically assign IP address, subnet mask, gateway, and DNS to devices in a network.
+
+STEPS:-
+
+1.Create a network with one server, one switch, and multiple PCs.
+2. Connect server and PCs to the switch using straight-through cables.
+3. Assign a static IP to the server (e.g., 10.0.0.1).
+4. Open server → Services → DHCP and turn DHCP service ON.
+5. Create a DHCP pool and set network (10.0.0.0) with subnet mask.
+6. Configure default gateway (e.g., 10.0.0.1) and DNS server.
+7. Set starting IP range (e.g., 10.0.0.2 onwards).
+8. Save the DHCP configuration.
+9. Set all PCs to DHCP mode in IP configuration.
+10. Verify PCs receive IP addresses automatically and test using ping.
