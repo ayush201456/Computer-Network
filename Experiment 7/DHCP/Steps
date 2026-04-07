@@ -1,4 +1,8 @@
-DHCP Steps:-
+DHCP 
+
+DHCP is used to automatically assign IP address, subnet mask, gateway, and DNS to devices in a network.
+
+Steps:-
 
 1.Create a network with one server, one switch, and multiple PCs.
 2. Connect server and PCs to the switch using straight-through cables.
