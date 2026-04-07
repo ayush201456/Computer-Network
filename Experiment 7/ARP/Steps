@@ -1,4 +1,8 @@
-ARP Steps:-
+ARP 
+
+ARP is used to map an IP address to its corresponding MAC address in a local network.
+
+Steps:-
 
 1. Create a network with one switch and multiple PCs.
 2. Connect PCs using straight-through cables.
