@@ -1,1 +1,34 @@
+**Experiment - 10**
 
+Implement a DNS and DDNS simulation to demonstrate domain name resolution and dynamic updates. Create a simple client-server application that queries and updates the DNS records.
+
+What is DNS?
+
+DNS is a system that converts domain names into IP addresses for communication over the internet.
+
+Steps:-
+
+1. Create a DNS server using sockets to store domain–IP mappings.
+2. Start the server and listen for incoming client connections.
+3. Design a client program to send requests to the server.
+4. Send a QUERY request to resolve a domain name to an IP address.
+5. Server processes the request and returns the corresponding IP.
+6. Send an UPDATE request to add or modify DNS records dynamically.
+7. Server updates the record in its database/dictionary.
+8. Display the server response on the client side.
+9. Repeat requests to demonstrate real-time DNS resolution and updates.
+
+Practical Steps:-
+
+Assign IP address to PC0 → 192.168.1.10
+Assign IP to DNS Server → 192.168.1.100
+Assign IP to Web Server → 192.168.1.200
+On PC0, set DNS Server IP = 192.168.1.100
+Open DNS Server → Services → DNS → Turn ON
+Add DNS record:
+Name: www.krmu.edu
+Address: 192.168.1.200
+On Web Server → Services → HTTP → Turn ON
+Go to PC0 → Desktop → Web Browser
+Enter URL: www.krmu.edu
+DNS resolves domain → connects to Web Server → webpage loads
