@@ -85,6 +85,23 @@ Steps:-
 9. Verify successful data transmission.
 10. Conclude that communication uses a dedicated path.
 
+What is Packet Switching?
+
+Packet switching is a method where data is divided into small packets and sent through different paths in a network to reach the destination.
+
+Steps:-
+
+1. Create a network with multiple PCs connected through a switch.
+2. Connect all PCs to the switch using straight-through cables.
+3. Assign IP addresses to all PCs in the same network.
+4. Switch to Simulation Mode.
+5. Send a PDU from one PC to another.
+6. Observe packets being divided and transmitted across the network.
+7. Track packet movement through the switch.
+8. Verify successful packet delivery at destination.
+9. Repeat for different PCs to observe communication.
+10. Conclude that data is transmitted in the form of packets.
+
 **Experiment - 6**
 
 Develop a simulation to demonstrate multiple access protocols such as Pure ALOHA, Slotted ALOHA, CSMA/CD, and CSMA/CA. Analyze the performance of each protocol in handling network collisions and maximizing data transmission efficiency.
