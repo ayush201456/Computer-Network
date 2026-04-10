@@ -64,6 +64,27 @@ Steps:
 3. Switches → Hub (Bus backbone)
 4. Test → observe combined behavior
 
+**Experiment - 2**
+
+Create a network simulation to demonstrate packet switching and circuit switching. Compare the performance and efficiency of both methods by simulating a series of data transmission scenarios.
+
+What is Circuit Switching?
+
+Circuit switching is a method where a dedicated path is established between sender and receiver before data transmission.
+
+Steps:-
+
+1. Create a network with two PCs connected through routers via a single path.
+2. Connect devices using appropriate cables.
+3. Assign IP addresses to PCs and router interfaces.
+4. Enable router interfaces using no shutdown.
+5. Configure static routing to establish a fixed path.
+6. Send data using ping from source to destination.
+7. Observe that all packets follow the same path.
+8. Note that the path remains reserved during communication.
+9. Verify successful data transmission.
+10. Conclude that communication uses a dedicated path.
+
 **Experiment - 6**
 
 Develop a simulation to demonstrate multiple access protocols such as Pure ALOHA, Slotted ALOHA, CSMA/CD, and CSMA/CA. Analyze the performance of each protocol in handling network collisions and maximizing data transmission efficiency.
