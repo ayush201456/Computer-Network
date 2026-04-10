@@ -1,5 +1,9 @@
 **Experiment - 2(a)**
 
+Create a network simulation to demonstrate packet switching and circuit switching. Compare the performance and efficiency of both methods by simulating a series of data transmission scenarios.
+
+What is Circuit Switching?
+
 Circuit switching is a method where a dedicated path is established between sender and receiver before data transmission.
 
 Steps:-
