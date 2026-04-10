@@ -1,1 +1,16 @@
+**Experiment - 2(a)**
 
+Circuit switching is a method where a dedicated path is established between sender and receiver before data transmission.
+
+Steps:-
+
+1. Create a network with two PCs connected through routers via a single path.
+2. Connect devices using appropriate cables.
+3. Assign IP addresses to PCs and router interfaces.
+4. Enable router interfaces using no shutdown.
+5. Configure static routing to establish a fixed path.
+6. Send data using ping from source to destination.
+7. Observe that all packets follow the same path.
+8. Note that the path remains reserved during communication.
+9. Verify successful data transmission.
+10. Conclude that communication uses a dedicated path.
