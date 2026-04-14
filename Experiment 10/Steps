@@ -20,15 +20,15 @@ Steps:-
 
 Practical Steps:-
 
-Assign IP address to PC0 → 192.168.1.10
-Assign IP to DNS Server → 192.168.1.100
-Assign IP to Web Server → 192.168.1.200
-On PC0, set DNS Server IP = 192.168.1.100
-Open DNS Server → Services → DNS → Turn ON
-Add DNS record:
+1. Assign IP address to PC0 → 192.168.1.10
+2. Assign IP to DNS Server → 192.168.1.100
+3. Assign IP to Web Server → 192.168.1.200
+4. On PC0, set DNS Server IP = 192.168.1.100
+5. Open DNS Server → Services → DNS → Turn ON
+6. Add DNS record:
 Name: www.krmu.edu
 Address: 192.168.1.200
-On Web Server → Services → HTTP → Turn ON
-Go to PC0 → Desktop → Web Browser
+7. On Web Server → Services → HTTP → Turn ON
+8. Go to PC0 → Desktop → Web Browser
 Enter URL: www.krmu.edu
-DNS resolves domain → connects to Web Server → webpage loads
+9. DNS resolves domain → connects to Web Server → webpage loads
