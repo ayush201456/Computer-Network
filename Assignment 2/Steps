@@ -1,0 +1,16 @@
+🧾 Assignment 2 – Packet Flow Visualization
+
+ARP is used to map an IP address to its corresponding MAC address in a local network.
+
+Steps:-
+
+1. Create a network with one switch and multiple PCs.
+2. Connect PCs using straight-through cables.
+3. Assign IP addresses in the same subnet (e.g., 192.168.1.x).
+4. Switch to Simulation Mode.
+5. Send a PDU from source PC to destination PC.
+6. Observe ARP request broadcast in the network.
+7. Observe ARP reply from destination PC with MAC address.
+8. Open packet details to verify IP–MAC mapping.
+9. Continue simulation to complete ICMP communication.
+10. Verify ARP resolution in the process.
