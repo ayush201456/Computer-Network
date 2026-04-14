@@ -133,6 +133,7 @@ Steps:-
 
 
 **Experiment - 7**
+
 Create a simulation to demonstrate logical addressing using IPv4 and IPv6. Implement address mapping techniques such as ARP and DHCP to show how devices acquire and resolve network addresses.
 
 **ARP**
