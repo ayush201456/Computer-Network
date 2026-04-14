@@ -1,1 +1,12 @@
-
+.
+🧾 Assignment 3 – Network Load & Delay
+1. Create a network with one switch and multiple PCs.
+2. Assign IP addresses to all PCs.
+3. Perform ping between two PCs (low traffic).
+4. Observe normal delay and packet flow.
+5. Generate multiple simultaneous pings between PCs.
+6. Observe increased traffic in simulation mode.
+7. Analyze delay and packet drops.
+8. Compare low and high traffic behavior.
+9. Record observations from event list.
+10. Conclude effect of network congestion.
