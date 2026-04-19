@@ -1,3 +1,18 @@
 **Experiment - 9**
 
 Implement a transport layer simulation to demonstrate process-to-process   communication using UDP, TCP, and SCTP. Compare the protocols in terms of connection establishment, data transmission, and congestion control.
+
+Steps:-
+
+Here are **one-line steps for RIP practical**:
+
+1. Assign IP addresses to all router interfaces.
+2. Configure IP and default gateway on all PCs.
+3. Enable router interfaces using `no shutdown`.
+4. Start RIP using `router rip` command.
+5. Set RIP version using `version 2`.
+6. Disable auto summarization using `no auto-summary`.
+7. Add all connected networks using `network` command.
+8. Repeat RIP configuration on all routers.
+9. Verify routing table using `show ip route`.
+10. Test connectivity using `ping` between PCs.
