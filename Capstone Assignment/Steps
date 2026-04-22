@@ -1,1 +1,12 @@
+CAPSTONE ASSIGNMENT
 
+1. Open Cisco Packet Tracer and place 2 routers, 2 switches, and 4 PCs.
+2. Connect PCs to switches and switches to routers using copper straight-through cables.
+3. Connect both routers using a **Serial DCE (WAN) cable**.
+4. Assign IP addresses to router LAN and WAN interfaces.
+5. Enable interfaces using `no shutdown` command.
+6. Configure a DHCP server on LAN 1 to assign IPs automatically.
+7. Set all PCs to DHCP mode.
+8. Configure **RIPv2 routing** on both routers.
+9. Verify routing tables using `show ip route`.
+10. Test connectivity by pinging from LAN 1 PC to LAN 2 PC.
