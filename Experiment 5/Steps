@@ -1,1 +1,16 @@
+**Experiment - 5**
 
+Design and simulate flow control and error control protocols such as Stop and Wait, Go-Back-N ARQ, and Selective Repeat ARQ. Compare their performance in terms of throughput and efficiency under varying network conditions.
+
+Steps:-
+
+1. Choose a simulation tool (e.g., NS2 / NS3 or Python).
+2. Create sender and receiver nodes for data transmission.
+3. Implement **Stop-and-Wait ARQ** with ACK and timeout mechanism.
+4. Implement **Go-Back-N ARQ** using sliding window protocol.
+5. Implement **Selective Repeat ARQ** with individual frame acknowledgment.
+6. Introduce network conditions like delay, packet loss, and errors.
+7. Run simulations for each protocol under same conditions.
+8. Measure throughput and efficiency for all protocols.
+9. Compare results using graphs or tables.
+10. Analyze which protocol performs best under different conditions.
