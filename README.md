@@ -119,6 +119,25 @@ Steps:-
 9. Record failure and recovery behavior.
 10. Conclude impact of link errors.
 
+**Experiment - 5**
+
+Design and simulate flow control and error control protocols such as Stop and Wait, Go-Back-N ARQ, and Selective Repeat ARQ. Compare their performance in terms of throughput and efficiency under varying network conditions.
+
+Steps:-
+
+1. Create a simple topology using PCs and switches/routers.
+2. Assign IP addresses to all devices.
+3. Configure default gateway (if routers are used).
+4. Switch to **Simulation Mode**.
+5. Send packets using **Add Simple PDU**.
+6. Observe packet flow step-by-step.
+7. Drop packets manually to simulate errors.
+8. Resend packets to represent retransmission.
+9. Repeat to conceptually demonstrate ARQ behavior.
+10. Analyze successful vs failed transmissions.
+
+
+
 **Experiment - 6**
 
 Develop a simulation to demonstrate multiple access protocols such as Pure ALOHA, Slotted ALOHA, CSMA/CD, and CSMA/CA. Analyze the performance of each protocol in handling network collisions and maximizing data transmission efficiency.
