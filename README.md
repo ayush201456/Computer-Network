@@ -223,6 +223,26 @@ STEPS:-
 9. Set all PCs to DHCP mode in IP configuration.
 10. Verify PCs receive IP addresses automatically and test using ping.
 
+**Experiement - 8**
+
+Implement a sliding window protocol with piggybacking for efficient data transmission and error control. Simulate data transfer between two nodes and visualize the window movements and acknowledgments.
+
+Steps:-
+
+1. Create a topology with two PCs connected via switch/router.
+2. Assign IP addresses to both PCs.
+3. Verify connectivity using `ping`.
+4. Switch to **Simulation Mode**.
+5. Send packets in both directions using **Add Simple PDU**.
+6. Observe bidirectional packet flow.
+7. Send multiple packets to represent sliding window transmission.
+8. Observe acknowledgments flowing with data (piggybacking concept).
+9. Drop packets to simulate error and retransmission.
+10. Explain window movement and ACK handling conceptually.
+
+
+
+
 **Experiment - 9**
 
 Implement a transport layer simulation to demonstrate process-to-process   communication using UDP, TCP, and SCTP. Compare the protocols in terms of connection establishment, data transmission, and congestion control.
