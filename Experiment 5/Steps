@@ -4,13 +4,14 @@ Design and simulate flow control and error control protocols such as Stop and Wa
 
 Steps:-
 
-1. Choose a simulation tool (e.g., NS2 / NS3 or Python).
-2. Create sender and receiver nodes for data transmission.
-3. Implement **Stop-and-Wait ARQ** with ACK and timeout mechanism.
-4. Implement **Go-Back-N ARQ** using sliding window protocol.
-5. Implement **Selective Repeat ARQ** with individual frame acknowledgment.
-6. Introduce network conditions like delay, packet loss, and errors.
-7. Run simulations for each protocol under same conditions.
-8. Measure throughput and efficiency for all protocols.
-9. Compare results using graphs or tables.
-10. Analyze which protocol performs best under different conditions.
+1. Create a simple topology using PCs and switches/routers.
+2. Assign IP addresses to all devices.
+3. Configure default gateway (if routers are used).
+4. Switch to **Simulation Mode**.
+5. Send packets using **Add Simple PDU**.
+6. Observe packet flow step-by-step.
+7. Drop packets manually to simulate errors.
+8. Resend packets to represent retransmission.
+9. Repeat to conceptually demonstrate ARQ behavior.
+10. Analyze successful vs failed transmissions.
+
