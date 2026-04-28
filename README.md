@@ -119,6 +119,23 @@ Steps:-
 9. Record failure and recovery behavior.
 10. Conclude impact of link errors.
 
+**Experiment - 4**
+
+Implement error detection and correction mechanisms using block coding and CRC. Simulate a communication system that demonstrates how errors are detected and corrected during data transmission.
+
+Steps:-
+
+1. Create a simple topology using two PCs and a switch/router.
+2. Assign IP addresses to both PCs.
+3. Ensure connectivity using `ping`.
+4. Switch to **Simulation Mode**.
+5. Send data using **Add Simple PDU**.
+6. Observe packet transmission step-by-step.
+7. Drop/modify packets to simulate transmission error.
+8. Re-send packets to represent retransmission.
+9. Explain CRC as error detection at receiver side.
+10. Explain block coding as error correction conceptually.
+
 **Experiment - 5**
 
 Design and simulate flow control and error control protocols such as Stop and Wait, Go-Back-N ARQ, and Selective Repeat ARQ. Compare their performance in terms of throughput and efficiency under varying network conditions.
