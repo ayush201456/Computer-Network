@@ -64,6 +64,7 @@ Steps:
 3. Switches → Hub (Bus backbone)
 4. Test → observe combined behavior
 
+
 **Experiment - 2**
 
 Create a network simulation to demonstrate packet switching and circuit switching. Compare the performance and efficiency of both methods by simulating a series of data transmission scenarios.
@@ -102,6 +103,7 @@ Steps:-
 9. Repeat for different PCs to observe communication.
 10. Conclude that data is transmitted in the form of packets.
 
+
 **Experiment - 3**
 
 Develop a network simulator to analyze packet delay, loss, and end-to-end throughput. Implement various routing algorithms and measure their impact on network performance under different traffic conditions.
@@ -118,6 +120,7 @@ Steps:-
 8. Observe recovery of communication.
 9. Record failure and recovery behavior.
 10. Conclude impact of link errors.
+
 
 **Experiment - 4**
 
@@ -136,6 +139,7 @@ Steps:-
 9. Explain CRC as error detection at receiver side.
 10. Explain block coding as error correction conceptually.
 
+
 **Experiment - 5**
 
 Design and simulate flow control and error control protocols such as Stop and Wait, Go-Back-N ARQ, and Selective Repeat ARQ. Compare their performance in terms of throughput and efficiency under varying network conditions.
@@ -152,7 +156,6 @@ Steps:-
 8. Resend packets to represent retransmission.
 9. Repeat to conceptually demonstrate ARQ behavior.
 10. Analyze successful vs failed transmissions.
-
 
 
 **Experiment - 6**
@@ -184,7 +187,6 @@ Steps:-
 8. Retransmit
 
 
-
 **Experiment - 7**
 
 Create a simulation to demonstrate logical addressing using IPv4 and IPv6. Implement address mapping techniques such as ARP and DHCP to show how devices acquire and resolve network addresses.
@@ -213,24 +215,16 @@ DHCP is used to automatically assign IP address, subnet mask, gateway, and DNS t
 STEPS:-
 
 1.Create a network with one server, one switch, and multiple PCs.
-
-2. Connect server and PCs to the switch using straight-through cables.
-
+2. Connect server and PCs to the switch using straight-through cables
 3. Assign a static IP to the server (e.g., 10.0.0.1).
-
 4. Open server → Services → DHCP and turn DHCP service ON.
-
 5. Create a DHCP pool and set network (10.0.0.0) with subnet mask.
-
 6. Configure default gateway (e.g., 10.0.0.1) and DNS server.
-
 7. Set starting IP range (e.g., 10.0.0.2 onwards).
-
 8. Save the DHCP configuration.
-
 9. Set all PCs to DHCP mode in IP configuration.
-
 10. Verify PCs receive IP addresses automatically and test using ping.
+
 
 **Experiement - 8**
 
@@ -248,8 +242,6 @@ Steps:-
 8. Observe acknowledgments flowing with data (piggybacking concept).
 9. Drop packets to simulate error and retransmission.
 10. Explain window movement and ACK handling conceptually.
-
-
 
 
 **Experiment - 9**
